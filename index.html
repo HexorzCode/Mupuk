@@ -9,14 +9,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Mupuk</title>
 </head>
 
 <body>
-    <nav class="bg-[#5DA57F] w-max flex justify-between items-center">
-        <button class="text-white font-semibold pl-[22px] text-[30px] font-[Lalezar] md:hidden">Mupuk</button>
+    <nav class="bg-[#5DA57F] w-full min-w-max flex justify-between items-center">
+        <div class="md:hidden">
+            <button class="text-white font-semibold pl-[22px] text-[30px] font-[Lalezar] md:hidden group bg-[#5DA57F] w-full">Mupuk
+                <ul class=" py-5 items-center hidden absolute bg-[#5DA57F] w-full left-0 group-hover:block group-focus:block font-normal text-[20px]">
+                    <li class="py-2">
+                        <a class="hover:underline" href="">Pupuk</a>
+                    </li>
+                    <li class="py-2">
+                        <a class="hover:underline" href="">Pestisida</a>
+                    </li>
+                    <li class="py-2">
+                        <a class="hover:underline" href="">Alat</a>
+                    </li>
+                </ul>
+            </button>
+        </div>
         <h1 class="text-white font-semibold pl-[22px] text-[30px] font-[Lalezar] hidden md:block">Mupuk</h1>
-        <ul class="gap-[20px] items-center flex">
+        <ul class="gap-10 items-center flex">
             <li class="hidden md:block">
                 <a class="hover:underline" href="">Pupuk</a>
             </li>
