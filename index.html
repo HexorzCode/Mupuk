@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="bg-[#5DA57F] w-max flex justify-between items-center">
+        <button class="text-white font-semibold pl-[22px] text-[30px] font-[Lalezar] md:hidden">Mupuk</button>
+        <h1 class="text-white font-semibold pl-[22px] text-[30px] font-[Lalezar] hidden md:block">Mupuk</h1>
+        <ul class="gap-[20px] items-center flex">
+            <li class="hidden md:block">
+                <a class="hover:underline" href="">Pupuk</a>
+            </li>
+            <li class="hidden md:block">
+                <a class="hover:underline" href="">Pestisida</a>
+            </li>
+            <li class="hidden md:block">
+                <a class="hover:underline" href="">Alat</a>
+            </li>
+        </ul>
+        <div class="flex">
+            <div class="flex flex-col justify-center">
+                <div class="relative w-full px-2 sm:max-w-2xl sm:mx-auto py-[20px]">
+                    <div class="overflow-hidden z-0 rounded-full relative p-1">
+                        <form role="form" class="relative flex z-50 bg-white rounded-full">
+                            <input type="text" placeholder="enter your search here"
+                                class="rounded-full flex-1 px-1 text-gray-700 focus:outline-none">
+                            <button
+                                class="bg-indigo-500 text-white rounded-full font-semibold px-2 py-1 hover:bg-indigo-400 focus:bg-indigo-600 focus:outline-none">Search</button>
+                        </form>
+                        <div class="glow glow-1 z-10 bg-pink-400 absolute"></div>
+                        <div class="glow glow-2 z-20 bg-purple-400 absolute"></div>
+                        <div class="glow glow-3 z-30 bg-yellow-400 absolute"></div>
+                        <div class="glow glow-4 z-40 bg-blue-400 absolute"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="text-lime-200 text-xl font-semibold font-['Lalezar'] mx-2">Login</button>
+        </div>
+    </nav>
+</body>
+
+</html>
